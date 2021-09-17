@@ -1,0 +1,53 @@
+{
+	"login": 
+	{
+		"negative_test_case_01": 
+		{
+			"username": "ppd",
+			"password": "srksrksrksrk"
+		},
+
+		"negative_test_case_02": 
+		{
+			"username": "ppdsrk",
+			"password": "srkcss"
+		},
+
+		"negative_test_case_03": 
+		{
+			"username": "ritesh.srk.khatri",
+			"password": "srksrksrksrk"
+		},
+
+		"negative_test_case_04": 
+		{
+			"username": "",
+			"password": ""
+		},
+
+		"negative_test_case_05": 
+		{
+			"username": "ppd",
+			"password": "SRKCSS"
+		},
+
+		"positive_test_case_06": 
+		{
+			"username": "PPD",
+			"password": "srkcss"
+		},
+
+		"validation_message": 
+		{
+			"message": "Username or password is incorrect"
+		},
+		"no_user_exist": 
+		{
+			"message": "No such user exists"
+		},
+		"wrong_password": 
+		{
+			"message": "Incorrect password"
+		}
+	}
+}
