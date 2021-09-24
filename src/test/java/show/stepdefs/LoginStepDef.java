@@ -22,7 +22,6 @@ import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Managed;
 
 /**
- * @author Sapan Shah
  * @author Parth Moradiya
  * 
  * 

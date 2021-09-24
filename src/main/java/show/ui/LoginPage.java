@@ -16,7 +16,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 /**
- *  @author Parth Moradiya
+ * @author Parth Moradiya
  * 
  *
  *
@@ -30,6 +30,11 @@ public class LoginPage extends PageObject {
 	Common common;
 	private UtilFactory utilFactory;
 
+	public LoginPage() {
+		driver = super.getDriver();
+		utilFactory = new UtilFactory(driver);
+	}
+
 	@FindBy(css = LoginLocators.USERNAME_TXT_BOX)
 	private WebElement usernameTxtBox;
 
@@ -38,11 +43,6 @@ public class LoginPage extends PageObject {
 
 	@FindBy(css = LoginLocators.LOGIN_BUTTON)
 	private WebElement loginBtn;
-
-	public LoginPage() {
-		driver = super.getDriver();
-		utilFactory = new UtilFactory(driver);
-	}
 
 	public void openUrl() {
 		logger.debug(LogConstants.LOG_ENTER + Thread.currentThread().getStackTrace()[1].getMethodName());
