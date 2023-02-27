@@ -43,11 +43,11 @@
 		},
 		"no_user_exist": 
 		{
-			"message": "No such user exists"
+			"message": "Incorrect Username/Password"
 		},
 		"wrong_password": 
 		{
-			"message": "Incorrect password"
+			"message": "Incorrect Username/Password"
 		}
 	}
 }
