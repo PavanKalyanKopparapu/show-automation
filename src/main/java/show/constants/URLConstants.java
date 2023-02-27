@@ -19,9 +19,9 @@ public class URLConstants {
 		logger.debug(LogConstants.LOG_ENTER + Thread.currentThread().getStackTrace()[1].getMethodName());
 		String launchUrl = "";
 		if (System.getProperty("env").equals("dev")) {
-			launchUrl = "http://13.71.26.73:4100/login";
+			launchUrl = "http://devpure.srk.best/login";
 		} else if (System.getProperty("env").equals("qa")) {
-			launchUrl = "http://qa.srk.best:4100/login";
+			launchUrl = "http://qapure.srk.best:7007/login";
 		} else if (System.getProperty("env").equals("preprod")) {
 			launchUrl = "http://preprod/login";
 		} else if (System.getProperty("env").equals("stage")) {

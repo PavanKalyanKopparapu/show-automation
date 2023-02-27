@@ -1,0 +1,45 @@
+{
+	"login": 
+	{
+		"negative_test_case_01": 
+		{
+			"username": "ritesh.khatri",
+			"password": "srksrksrksrk"
+		},
+
+		"negative_test_case_02": 
+		{
+			"username": "ritesh.srk.khatri",
+			"password": "srk1964"
+		},
+
+		"negative_test_case_03": 
+		{
+			"username": "ritesh.srk.khatri",
+			"password": "srksrksrksrk"
+		},
+
+		"negative_test_case_04": 
+		{
+			"username": "",
+			"password": ""
+		},
+
+		"negative_test_case_05": 
+		{
+			"username": "ritesh.khastri",
+			"password": "SRK1964"
+		},
+
+		"positive_test_case_06": 
+		{
+			"username": "PPD",
+			"password": "srk1964"
+		},
+
+		"validation_message": 
+		{
+			"message": "Username or password is incorrect"
+		}
+	}
+}
